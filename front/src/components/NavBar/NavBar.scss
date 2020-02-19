@@ -1,0 +1,54 @@
+$fontSize: 1.8vw;
+$normalCol: rgba(255, 255, 255, 0.753);
+$normalBg: rgba(153, 153, 153, 0.397);
+$specialBg: rgba(202, 202, 202, 0.685);
+
+@mixin navButton($color, $bg-color) {
+  display: block;
+
+  text-decoration: none;
+  color: $color;
+  background-color: $bg-color;
+
+  font-size: $fontSize;
+
+  margin: 1%;
+
+  width: fit-content;
+  height: fit-content;
+}
+
+#NavBar {
+  position: fixed;
+  top: 3vh;
+  float: right;
+  right: 3vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+#nav-main,
+#nav-laugh,
+#nav-dream,
+#nav-marvelAt,
+#nav-book {
+  @include navButton($normalCol, $normalBg);
+  padding: 0.6% 0.6% 1.8%;
+}
+
+#nav-about {
+  @include navButton($normalCol, $specialBg);
+
+  padding: 0.6% 0.6% 1.8%;
+}
+
+#about-nav-home {
+  @include navButton($normalCol, $normalBg);
+  padding: 0.9% 1.2%;
+}
+
+#old-nav {
+  @include navButton($normalCol, $normalBg);
+  padding: 0.9% 1.2%;
+}

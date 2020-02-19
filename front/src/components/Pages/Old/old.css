@@ -1,0 +1,186 @@
+body{
+    color: #fff; 
+}
+
+.back{
+  position: fixed;
+  top: 0px;
+  left:0px;
+  width:100%;
+  z-index: -5;
+}
+/*Title*/
+
+h1{
+    text-align: center;
+    font-family: 'Amatic SC', cursive; 
+    font-size: 69px;  
+}
+.logo a{
+    width: 12%;
+}
+
+/*Nav Menu*/
+
+nav{
+    font-family: 'Amatic SC', cursive;   
+    list-style: none;
+    margin: auto;
+    text-align: center;
+    font-size: 51px;     
+} 
+nav li{
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 5px;
+    
+    font-size: 30px;
+}
+.navlist a{ 
+    width: 15%;  
+    display: inline-block; 
+    border: 3px white dotted;
+}
+
+/*Preferences List*/
+
+ul{
+    list-style-type: none;
+}
+.pref{
+    margin: auto;
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
+.pref li{
+    display: inline-block;
+    width: 21%;
+    
+    text-align: center;
+    border: 6px double white;
+}
+.pref h3{
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+}
+
+/*Performances*/
+
+
+/*Links*/
+
+a {
+    text-decoration: none;     
+    display: block;
+    text-align: center;
+    color: white;
+    margin: auto;    
+}
+a h2{
+    font-family: 'Amatic SC', cursive;   
+    font-size: 39px;   
+}
+.performances a { 
+    width: 180px;
+    border: 3px white dotted;      
+}
+
+.about a { 
+    width: 120px;
+    border: 3px white dotted;
+}
+.prices a { 
+    width: 90px;
+    border: 3px white dotted;
+}
+.contact a {
+    width: 150px;
+    border: 3px white dotted;
+}
+.achivs {
+    width: 222px;
+    border: 3px white dotted;
+}
+.profile {
+    width: 141px;
+    border: 3px white dotted;
+}
+
+/*Table*/
+
+table{
+    margin: auto;
+    width: 81%;
+    font-family: 'Mali', cursive;
+    font-size: 30px;   
+}
+th,td{
+    border: 3px white double;  
+
+}
+
+/*Form*/
+
+form{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    margin: auto;
+}
+form input{
+    font-family: 'Mali', cursive;
+}
+
+/*Footer*/
+
+footer{
+    font-family: 'Mali', cursive;
+}
+footer p{
+    text-align: center;   
+}
+
+/*Images*/
+
+.mainSlides{
+padding: 9px;
+margin: auto;
+border: 3px white double;  
+}
+.laughSlides{
+    margin: auto;
+    max-width: 100%;
+}
+.dreamSlides{
+    margin: auto;
+    max-width: 100%;
+}
+.marvelAtSlides{
+    margin: auto;
+    max-width: 100%;
+}
+
+/*Lines*/
+
+.performancesLine{
+width: 60%;
+}
+.navigationLine{
+width: 90%;
+}
+
+/*About*/
+#about{
+    text-align: center;  
+}
+#about h3{
+    font-family: 'Amatic SC', cursive;   
+    font-size: 21px;
+}
+#about p{
+    margin: auto;
+    font-family: 'Mali', cursive;
+    text-align: center;
+    width: 66%;
+}

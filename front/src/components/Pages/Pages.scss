@@ -1,0 +1,91 @@
+@mixin Page {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+@mixin Image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  filter: grayscale(50%) brightness(30%);
+
+  z-index: -100;
+}
+
+#Main,
+#Laugh,
+#Dream,
+#MarvelAt,
+#About,
+#Book {
+  @include Page();
+
+  color: white;
+}
+#About {
+  #textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+#Book {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  table {
+    background-color: rgba(0, 0, 0, 0.356);
+
+    tr {
+      padding: 1%;
+    }
+    td {
+      padding: 1%;
+    }
+  }
+}
+
+#Laugh,
+#Dream,
+#MarvelAt {
+  #Ramones {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 10%;
+  }
+}
+
+#backgroundImgMain {
+  @include Image();
+  background-image: url("./Main/Main.png");
+}
+#backgroundImgLaugh {
+  @include Image();
+  background-image: url("./Laugh/Laugh.png");
+}
+#backgroundImgDream {
+  @include Image();
+  background-image: url("./Dream/Dream.png");
+}
+#backgroundImgMarvelAt {
+  @include Image();
+  background-image: url("./MarvelAt/MarvelAt.png");
+}
+#backgroundImgAbout {
+  @include Image();
+  background-image: url("./About/About.png");
+}
+#backgroundImgBook {
+  @include Image();
+  background-image: url("./Book/Book.png");
+}

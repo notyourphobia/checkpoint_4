@@ -1,0 +1,11 @@
+As a user I would like to see all the event dates
+				(maybe with maps)
+
+As a user I would like book from the website
+
+As a user I would like to have dark mode cu pro
+
+As a user I would like to recieve a newsletter
+
+As a user I would like to have some fun interactive
+					animations
